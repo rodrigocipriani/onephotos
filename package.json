@@ -1,0 +1,25 @@
+{
+  "name": "onephotos",
+  "version": "1.0.0",
+  "description": "OnePhotos App - All Rights Reserved",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cd client && npm i && npm run build",
+    "start": "cd server && npm i && npm start"
+  },
+  "engines": {
+    "node": "12.x",
+    "npm": "6.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigocipriani/onephotos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigocipriani/onephotos/issues"
+  },
+  "homepage": "https://github.com/rodrigocipriani/onephotos#readme"
+}
